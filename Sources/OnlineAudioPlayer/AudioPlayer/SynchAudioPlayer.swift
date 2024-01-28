@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SynchAudioPlayer: NSObject {
+public class SynchAudioPlayer: NSObject {
     static let shared = SynchAudioPlayer()
     var audioPlayer: AudioPlayer!
     private override init(){}
